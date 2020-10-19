@@ -1,0 +1,41 @@
+.main {
+  width: 250px;
+  height: 400px;
+  padding: 0px;
+}
+header {
+  text-align: center;
+  font-size: 15px;
+  height: 50px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.page {
+  top: 75px;
+  padding: 5px;
+  padding-bottom: 0px;
+  height: 320px;
+  width: inherit;
+  position: fixed;
+  display: inline-block;
+}
+.page1 {
+  left: 0px;
+}
+.page2 {
+  left: 300px;
+}
+.page3 {
+  left: 600px;
+}
+.form{
+  width: 100px;
+}
+.footer {
+  padding: 5px;
+  padding-top: 0px;
+  width: 240px;
+  height: 15px;
+  position: fixed;
+  bottom: 10px;
+}
+

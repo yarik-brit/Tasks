@@ -1,0 +1,37 @@
+body {
+  width: 200px;
+}
+.subtitle{
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.subtitle_text{
+  width: 100%;
+  margin-top: 5px;
+  padding: 15px;
+  padding-left: 0px;
+  padding-top: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px ;
+  border-bottom-color: #999;
+}
+.button{
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-weight: 700;
+  transition-duration: 0.5s;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.button:hover {
+  color: #ed346f;
+  border-color: #ed346f;
+}
+
+.subtitle span{
+  color: #ed346f;
+  opacity: 1;
+}
