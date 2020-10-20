@@ -1,22 +1,26 @@
 .main {
-  width: 250px;
-  height: 400px;
+  width: 220px;
+  height: 325px;
   padding: 0px;
+  margin: auto;
+  margin-right: 5px;
+  margin-left: 10px;
+  display: inline-block;
 }
 header {
   text-align: center;
   font-size: 15px;
   height: 50px;
   font-family: 'Ubuntu', sans-serif;
+  display: flow-root;
 }
 .page {
-  top: 75px;
-  padding: 5px;
   padding-bottom: 0px;
-  height: 320px;
+  height: 235px;
   width: inherit;
   position: fixed;
   display: inline-block;
+  margin-left: 10px;
 }
 .page1 {
   left: 0px;
@@ -27,15 +31,31 @@ header {
 .page3 {
   left: 600px;
 }
-.form{
-  width: 100px;
-}
+
 .footer {
   padding: 5px;
   padding-top: 0px;
-  width: 240px;
-  height: 15px;
+  padding-bottom: 2px;
+  width: 200px;
+  height: 30px;
   position: fixed;
-  bottom: 10px;
+  bottom: 3px;
+  display: inline-block;
 }
 
+#swapButton{
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 700;
+  transition-duration: 0.5s;
+  padding: 5px;
+  padding-bottom: 3px;
+  margin: auto;
+  outline: none;
+  position: absolute;
+}
+
+#swapButton:hover {
+  color: #ed346f;
+  border-color: #ed346f;
+}

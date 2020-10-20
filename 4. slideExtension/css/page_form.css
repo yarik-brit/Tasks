@@ -1,0 +1,37 @@
+.label{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+.form{
+  display: block;
+}
+.span{
+  margin-bottom: 3px;
+  margin-left: 0px;
+  display: inline-grid;
+}
+
+.spanButton{
+  margin-top: 15px;
+  display: inherit;
+}
+
+.submitButton{
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 7px;
+  font-weight: 700;
+  transform: translateY(-50%);
+  transition-duration: 0.5s;
+  padding: 2px;
+  outline: none;
+}
+.submitButton:hover {
+  box-shadow:  0 0 11px rgba(33,33,33,.2);
+  background-color: white;
+  color: green;
+  border-color: chartreuse;
+  font-weight: 700;
+}
+

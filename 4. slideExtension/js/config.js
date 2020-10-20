@@ -12,7 +12,9 @@ var config = {
     notifyOptionsFailed: {
         autoHide: true,
         autoHideDelay: 2500,
-        hideDuration: 250
+        hideDuration: 250,
+        arrowShow: false,
+        position: "bottom center",
     }
 };
 
